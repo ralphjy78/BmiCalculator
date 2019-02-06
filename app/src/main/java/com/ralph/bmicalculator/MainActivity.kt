@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadData() {
         // @@ddddd
+        // 한글
         val pref = PreferenceManager.getDefaultSharedPreferences(this)
         val height = pref.getInt("KEY_HEIGHT", 0)
         val weight = pref.getInt("KEY_WEIGHT", 0)
